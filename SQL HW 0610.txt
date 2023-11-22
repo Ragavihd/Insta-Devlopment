@@ -1,0 +1,67 @@
+Drop table students ;
+drop table courses ;
+
+Create table students ( sid number , sname varchar2(200), cid number);
+insert into Students values ( 100,'Steven',10);
+insert into Students values ( 101,'Neena',10);
+insert into Students values ( 102,'Lex',20);
+insert into Students values ( 103,'Valli',null);
+
+Create table courses ( cid number , cname varchar2(200));
+insert into courses values ( 10, 'ORACLE');
+insert into courses values ( 20, 'JAVA');
+insert into courses values ( 30, 'Informatica');
+insert into courses values ( null, 'UNIX');
+
+commit;
+
+select * from students ;
+
+select * from courses ;
+
+
+Homework
+----------
+
+1. print course name which are not choosen by any students  
+    i) using left join 
+    ii) using right join
+    iii) subqry  ( NOT IN ) 
+    iv) Subqry NOT exists
+    v) subqry with minus operation 
+    
+2. print department name which are not having employees 
+    i) using left join 
+    ii) using right join
+    iii) subqry  ( NOT IN ) 
+    iv) Subqry NOT exists
+    v) subqry with minus operation 
+    
+3. print department name which are having employees 
+    i) inner join 
+    ii) left join 
+    iii)right join
+    iv) subqry IN 
+    v) subqry Exists
+    vi) intersect with subqry
+    vii) full outer join
+    
+4. print city which are not having any departments 
+
+    i) left join 
+    ii)right join
+    iii) full outer join 
+    iv)  subqry - Not exists 
+    iv)  subqry - Not IN 
+    vi) minus 
+    
+5. print city which are having employees 
+    i) inner join 
+    ii) left join 
+    iii)right join
+    iv) subqry In 
+    v) subqry Exists 
+    Vi) intersect 
+    vii) full outer join 
+    
+
