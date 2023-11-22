@@ -64,4 +64,8 @@ Homework
     Vi) intersect 
     vii) full outer join 
     
-
+6. Print location which are having same city
+    i) innner join
+    ii) left join
+    iii) right join
+    iv) sub query
